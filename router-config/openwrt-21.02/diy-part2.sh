@@ -17,8 +17,8 @@ sed -i 's/192.168.1.1/192.168.5.1/g' package/base-files/files/bin/config_generat
 sed -i 's/root::0:0:99999:7:::/root:$1$V6QN/8r9$nNL8yW6jPKhydxh8SBhuX0:18276:0:99999:7:::/g' package/base-files/files/etc/shadow
 
 # Add branches package
-svn co https://github.com/Lienol/openwrt/branches/21.02/package/{lean,default-settings} package
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk package/openwrt-passwall
+#svn co https://github.com/Lienol/openwrt/branches/21.02/package/{lean,default-settings} package
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk package/openwrt-passwall
 
 # Replace the default software source
 # sed -i 's#openwrt.proxy.ustclug.org#mirrors.bfsu.edu.cn\\/openwrt#' package/lean/default-settings/files/zzz-default-settings
